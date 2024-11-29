@@ -1,0 +1,161 @@
+@font-face{
+  font-family: 'Customserfont';
+  src: url('TH_BUOI3\serif\SERIBL__.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Customslabfont';
+  src: url('TH_BUOI3\typo_slab_serif\TypoSlabserif-Light.ttf') format('truetype');
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Customserfont', serif;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Customslabfont', slab-serif;
+}
+h2 + p{
+  text-indent: 20px;
+}
+html{
+  font-size: 10px;
+}
+h1{
+  font-size: 4rem;
+  text-align: center;
+  letter-spacing: 3px;
+}
+h2{
+  font-size: 3rem;
+  letter-spacing: 3px;
+}
+
+p, a, ul, ol{
+  font-size: 2rem;
+}
+
+li a{
+  color: #a66;
+}
+
+p a{
+  color: #a66;
+}
+
+li a:visited{
+  color: #a66;
+}
+
+li a:hover{
+  color: #a66;
+  text-decoration: none;
+}
+
+li a:focus{
+  color: #a66;
+  text-decoration: none;
+  outline: none;
+}
+
+p a:focus{
+  color: #a66;
+  text-decoration: none;
+  outline: none;
+}
+
+p a:visited{
+  color: #a66;
+}
+
+p a:hover{
+  color: #a66;
+  text-decoration: none;
+}
+
+li a:active{
+  background-color: blueviolet;
+  color: white;
+}
+
+p a:active{
+  background-color: blueviolet;
+  color: white;
+}
+
+ul, ol{
+  list-style-type: square;
+}
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+nav ul li a{
+  display: block;
+  padding: 15px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  font-size: 16px;
+  width: 200px;
+  margin: 10px 0;
+  border-color: #a66;
+  border-width: 1px;
+  text-align: center;
+  border-style: solid;
+}
+
+nav ul li a:hover{
+  background: #a66;
+  color: white;
+}
+  
+nav ul{
+  list-style-type: none;
+}
+
+section p a{
+  background: url('external-link-52.png') no-repeat right center;
+  background-size: 16px 16px;
+  padding-right: 15px;
+  text-decoration: none;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
